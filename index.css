@@ -1,0 +1,129 @@
+* {
+    margin: none;
+    border: none;
+    padding: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(#373159,#2D0B41 ) no-repeat ;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    border: 2px solid#5B4C71;
+    width: 490px;
+    height: 480px;
+    border-radius: 50px;
+}
+
+.butTop {
+    display: flex;
+}
+
+.text1 {
+    padding:5px ;
+    margin-left: 50px;
+    color: white;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.inputs {
+    margin: 20px;
+    margin-left: 39px;
+}
+
+.inputss {
+    margin: 20px;
+    margin-left: 35px;
+    display: flex;
+}
+
+.text {
+    color: rgb(172, 172, 172);
+    font-size: 17px;
+    margin: 3px;
+    margin-left: 15px;
+}
+
+.inputt,.inputt2 {
+    outline: none;
+    border: none;
+    width: 400px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #5B4C71;
+}
+
+.text3 {
+    color: white;
+    font-size: 19px;
+    font-weight:  bold;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.check {
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.buttonn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 400px;
+    height: 40px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.buttonn:hover {
+    background-color: yellow;
+    transition: 0.3s;
+}
+
+.line {
+    margin-top: 20px;
+    margin-left: 50px;
+    border-bottom: 1px solid  #5B4C71;
+    width: 400px;
+}
+
+.pass {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 16px;
+    color: #5B4C71 ;
+    font-weight: bold;
+}
+
+.opentext,.opentext2 {
+    opacity: 0;
+    color: white;
+    margin-left: 15px;
+}
